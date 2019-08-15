@@ -1,0 +1,57 @@
+header {
+  background: #D3D3D3;
+  padding: 10px;
+}
+
+nav li {
+  display: inline;
+  padding: 0 10px;
+}
+
+.logInButton {
+  cursor: pointer;
+  float: right;
+  margin-right: 80px;
+  padding: 2px 8px;
+}
+
+.logInButton:hover {
+  border: 1px solid black;
+  transform: scale(1.2);
+}
+
+.logInButton:active {
+  font-weight: bold;
+}
+
+.logInBox {
+  border: 1px solid black;
+  display: none;
+  float: right;
+  padding: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.loggingIn {
+  background: white;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin: 10px;
+}
+
+#slideBox {
+  background: yellow;
+  position: relative;
+}
+
+#slideBox img {
+  border: 5px solid black;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
